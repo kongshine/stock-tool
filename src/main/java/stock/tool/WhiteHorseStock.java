@@ -69,7 +69,7 @@ public class WhiteHorseStock {
 
     }
 
-    private static int getHorseType(WhiteHorseEntity whe){
+    public static int getHorseType(WhiteHorseEntity whe){
         List<Float> profitGRate = whe.getKfNetProfitGrowthRate();
         StringBuilder desc = whe.getDesc();
         float first = profitGRate.get(0);
